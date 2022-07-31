@@ -6,8 +6,8 @@
 
 ## 🔥 Data Science:
 <p>
-  Data science is a multidisciplinary field that unifies **statistics** , **data analysis** , **machine learning** , and their **related methods** to extract knowledge and insights from data.  
-  Extracting insights from seemingly random data, data science normally involves collecting data, cleaning data, performing exploratory data analysis, building and evaluating machine learning models, and communicating insights to stakeholders.
+  Data science is a multidisciplinary field that unifies <b>statistics</b>, <b>data analysis</b>, <b>machine learning</b>, and their <b>related methods</b> to extract knowledge and insights from data.  
+  Extracting insights from seemingly random data, data science normally involves <b>collecting data</b>, <b>cleaning data</b>, performing <b>exploratory data analysis</b>, <b>building and evaluating machine learning models</b>, and <b>communicating insights to stakeholders</b>.
 
   **Business analytics:** Business analytics is a scientific process that transforms data into insights.  
   **Descriptive analytics** includes techniques that explain what has happened in the past.  
