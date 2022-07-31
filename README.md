@@ -26,11 +26,14 @@
 4.    R provides a large, coherent and integrated collection of tools for data analysis.
 5.    R provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
 
+<p>
   <b> As a conclusion, R is world’s most widely used statistics programming language. It's the #1 choice of data scientists and supported by a vibrant and talented community of contributors.</b>
 </p>
 
 ## 🔥 Data types/Data structures:
-The variables are assigned with R-Objects and the data type of the R-object becomes the data type of the variable. There are many types of R-objects. The frequently used ones are – 
+<p>
+  The variables are assigned with R-Objects and the data type of the R-object becomes the data type of the variable. There are many types of R-objects. The frequently used ones are – 
+  </p>
 
 1.    Vectors
 2.    Lists
@@ -39,7 +42,9 @@ The variables are assigned with R-Objects and the data type of the R-object beco
 5.    factors
 6.    Data Frames
 
-The simplest of these objects is the vector object and there are six data types of these atomic vectors, also termed as six classes of vectors. The other R-Objects are built upon the atomic vectors.<br/>
+<p>
+  The simplest of these objects is the vector object and there are six data types of these atomic vectors, also termed as six classes of vectors. The other R-Objects are built upon the atomic vectors.
+</p>
 Example:<br/>
 Logical- TRUE or FALSE<br/>
 Numeric - 12.3, 5, 999<br/>
@@ -67,13 +72,13 @@ print(a)
 
 5.    factors
 
-<h6> create a vector first</h6>
+create a vector first<br/>
 apple_colors <- c('r', 'o', 'g', 'r', 'o')
 
-<h6>create a factor object</h6>
+create a factor object<br/>
 factor_apple <- factor(apple_colors)
 
-<h6>print factor</h6>
+print factor<br/>
 print(factor_apple)<br/>
 print(nlevels(factor_apple))
 
