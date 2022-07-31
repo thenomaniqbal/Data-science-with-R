@@ -71,13 +71,10 @@ a <- array(c('green', 'red'), dim = c(3, 3, 2))<br/>
 print(a)
 
 5.    factors
-
 create a vector first<br/>
-apple_colors <- c('r', 'o', 'g', 'r', 'o')
-
+apple_colors <- c('r', 'o', 'g', 'r', 'o')<br/>
 create a factor object<br/>
-factor_apple <- factor(apple_colors)
-
+factor_apple <- factor(apple_colors)<br/>
 print factor<br/>
 print(factor_apple)<br/>
 print(nlevels(factor_apple))
@@ -92,50 +89,48 @@ BMI <- data.frame(<br/>
 print(BMI)
 
 ## 🔥 Variables:
-Variables are used to stored data, and the unique name given to it is called identifier.
+<p>Variables are used to stored data, and the unique name given to it is called identifier.</p>
 
 ## 🔥 Operators in R:
-Arethmatic, Relational, Logical and assignment( a<-8 means a=8) operators.
+<p>Arethmatic, Relational, Logical and assignment( a<-8 means a=8) operators.</p>
 
 ## 🔥 More about R:
 
-### string
-
-string <- "hello world"
+<h6> string </p>
+string <- "hello world"<br/>
 print(string)
 
-### multiline comment
-if(FALSE){
-  "this is a multi line
-  comment, and this is how we
-  put it"
+<h6>multiline comment</p>
+if(FALSE){<br/>
+  "this is a multi line<br/>
+  comment, and this is how we<br/>
+  put it"<br/>
 }
 
 ## 🔥 Conditional statement, loops, break, next, Rscript and Functions
 
+<h3>if else</h3>
+x=20<br/>
+if (x>18)<br/>
+{<br/>
+  print("major")<br/>
+} else {<br/>
+  print ("minor")<br/>
+}<br/>
 
-### if else
-x=20
-if (x>18)
-{
-  print("major")
-} else {
-  print ("minor")
+<h3>for loop</h3>
+vec <- c(1,2,3,4,5)<br/>
+for(val in vec)<br/>
+{<br/>
+  print(val)<br/>
 }
 
-### for loop
-vec <- c(1,2,3,4,5)
-for(val in vec)
-{
-  print(val)
-}
-
-### while loop
-i <- 1
-while(i<6)
-{
-  print(i)
-  i=i+1
+<h3>while loop</h3>
+i <- 1<br/>
+while(i<6)<br/>
+{<br/>
+  print(i)<br/>
+  i=i+1<br/>
 }
 
 ### repeat loop
