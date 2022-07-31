@@ -19,18 +19,17 @@
 <p> R is a programming language and software environment for statistical analysis, graphics representation and reporting. </p>
 
 ## 🔥 Features:
-<p>
-  1. R is a well-developed, simple and effective programming language which includes conditionals, loops, user defined recursive functions and input and output facilities.
-  2. R has an effective data handling and storage facility,
-  3. R provides a suite of operators for calculations on arrays, lists, vectors and matrices.
-  4. R provides a large, coherent and integrated collection of tools for data analysis.
-  5. R provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
 
-  As a conclusion, R is world’s most widely used statistics programming language. It's the # 1 choice of data scientists and supported by a vibrant and talented community of contributors.
+1.    R is a well-developed, simple and effective programming language which includes conditionals, loops, user defined recursive functions and input and output facilities.
+2.    R has an effective data handling and storage facility.
+3.    R provides a suite of operators for calculations on arrays, lists, vectors and matrices.
+4.    R provides a large, coherent and integrated collection of tools for data analysis.
+5.    R provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
+
+  As a conclusion, R is world’s most widely used statistics programming language. It's the #1 choice of data scientists and supported by a vibrant and talented community of contributors.
 </p>
 
 ## 🔥 Data types/Data structures:
-
 The variables are assigned with R-Objects and the data type of the R-object becomes the data type of the variable. There are many types of R-objects. The frequently used ones are – 
 
 1.    Vectors
@@ -40,19 +39,18 @@ The variables are assigned with R-Objects and the data type of the R-object beco
 5.    factors
 6.    Data Frames
 
-The simplest of these objects is the vector object and there are six data types of these atomic vectors, also termed as six classes of vectors. The other R-Objects are built upon the atomic vectors.
-Example
-Logical- TRUE or FALSE
-Numeric - 12.3, 5, 999
-Integer - 2L, 34L, 0L
-Complex - 3 + 2i
-Character - 'a' , '"good", "TRUE", '23.4'
-Raw - charToRaw("Hello") - "Hello" is stored as 48 65 6c 6c 6f
+The simplest of these objects is the vector object and there are six data types of these atomic vectors, also termed as six classes of vectors. The other R-Objects are built upon the atomic vectors.<br/>
+Example:<br/>
+Logical- TRUE or FALSE<br/>
+Numeric - 12.3, 5, 999<br/>
+Integer - 2L, 34L, 0L<br/>
+Complex - 3 + 2i<br/>
+Character - 'a' , '"good", "TRUE", '23.4'<br/>
+Raw - charToRaw("Hello") - "Hello" is stored as 48 65 6c 6c 6f<br/>
 
 ## 🔥 Explaining the data types:
-
-###1. vectors
-combining vectors
+1.    vectors
+<h3> combining vectors </h3>
 
 apple <- c('r', 'o', 'g')
 print(apple)
