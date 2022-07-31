@@ -26,7 +26,7 @@
 4.    R provides a large, coherent and integrated collection of tools for data analysis.
 5.    R provides graphical facilities for data analysis and display either directly at the computer or printing at the papers.
 
-  As a conclusion, R is world’s most widely used statistics programming language. It's the #1 choice of data scientists and supported by a vibrant and talented community of contributors.
+  <b> As a conclusion, R is world’s most widely used statistics programming language. It's the #1 choice of data scientists and supported by a vibrant and talented community of contributors.</b>
 </p>
 
 ## 🔥 Data types/Data structures:
@@ -50,43 +50,40 @@ Raw - charToRaw("Hello") - "Hello" is stored as 48 65 6c 6c 6f<br/>
 
 ## 🔥 Explaining the data types:
 1.    vectors
-<h3> combining vectors </h3>
-
-apple <- c('r', 'o', 'g')
+apple <- c('r', 'o', 'g')<br/>
 print(apple)
 
-### 2. lists
-list1 <-list(c(2,3,4), 21, 3.4, sin)
+2.    lists
+list1 <-list(c(2,3,4), 21, 3.4, sin)<br/>
 print(list1)
 
-### 3. matrices
-m = matrix(c('a', 'a','b', 'c', 'b', 'a'), nrow=2, ncol=3, byrow = TRUE)
+3.    matrices
+m = matrix(c('a', 'a','b', 'c', 'b', 'a'), nrow=2, ncol=3, byrow = TRUE)<br/>
 print(m)
 
-### 4. arrays
-a <- array(c('green', 'red'), dim = c(3, 3, 2))
+4.    arrays
+a <- array(c('green', 'red'), dim = c(3, 3, 2))<br/>
 print(a)
 
-### 5. factors
-create a vector first
+5.    factors
 
+<h6> create a vector first</h6>
 apple_colors <- c('r', 'o', 'g', 'r', 'o')
 
-create a factor object
-
+<h6>create a factor object</h6>
 factor_apple <- factor(apple_colors)
 
-print factor
-print(factor_apple)
+<h6>print factor</h6>
+print(factor_apple)<br/>
 print(nlevels(factor_apple))
 
-### 6. dataframes
-BMI <- data.frame(
-  gender = c('male','female', 'male'),
-  height = c( 152, 142, 156.8),
-  weight = c(56,54,34),
-  age = c(54,33,22)
-)
+6.    dataframes
+BMI <- data.frame(<br/>
+  gender = c('male','female', 'male'),<br/>
+  height = c( 152, 142, 156.8),<br/>
+  weight = c(56,54,34),<br/>
+  age = c(54,33,22)<br/>
+)<br/>
 print(BMI)
 
 ## 🔥 Variables:
