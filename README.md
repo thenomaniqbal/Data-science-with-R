@@ -324,4 +324,4 @@ Instead of doing a single train/test split, we’ll split our data into a traini
 <p>PCA are linear components of the original variables. They tend to capture as much variance as possible in a dataset.</p>
 
 
-            🔥 Furthermore, the practice files are included in the R folder, and the datasets are included in the Data-sets folder 🔥
+            🔥 Furthermore, the practice files are included in the "RStudio" folder, and the datasets are included in the "dataset" folder 🔥
