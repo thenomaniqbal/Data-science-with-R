@@ -92,15 +92,15 @@ print(BMI)
 <p>Variables are used to stored data, and the unique name given to it is called identifier.</p>
 
 ## 🔥 Operators in R:
-<p>Arethmatic, Relational, Logical and assignment( a<-8 means a=8) operators.</p>
+<p> Arethmatic, Relational, Logical and assignment( a<-8 means a=8) operators. </p>
 
 ## 🔥 More about R:
 
-<h6> string </p>
+<p> String </p>
 string <- "hello world"<br/>
 print(string)
 
-<h6>multiline comment</p>
+<p>Multiline comment</p>
 if(FALSE){<br/>
   "this is a multi line<br/>
   comment, and this is how we<br/>
@@ -133,76 +133,73 @@ while(i<6)<br/>
   i=i+1<br/>
 }
 
-### repeat loop
-x <- 1
-repeat
-{
-  print(x)
-  x=x+1
-  if(x==6){
-    break
-  }
+<h3>repeat loop</h3>
+x <- 1<br/>
+repeat<br/>
+{<br/>
+  print(x)<br/>
+  x=x+1<br/>
+  if(x==6){<br/>
+    break<br/>
+  }<br/>
 }
 
 
-### break and next
-num <- 1:5
-for (val in num){
-  if (val == 3){
-    break
-  }
-  print(val)
+<h3>break and next</h3>
+num <- 1:5<br/>
+for (val in num){<br/>
+  if (val == 3){<br/>
+    break<br/>
+  }<br/>
+  print(val)<br/>
 }
 
-num <- 1:5
-for (val in num){
-  if (val == 3){
-    next
-  }
-  print(val)
+num <- 1:5<br/>
+for (val in num){<br/>
+  if (val == 3){<br/>
+    next<br/>
+  }<br/>
+  print(val)<br/>
 }
 
 ## 🔥 R script
-a set of commands to be executed in console
-
+<p>A set of commands to be executed in console</p>
 source("myScript.R")
 
 ## 🔥 Function
-
-stored as r object, there are 1000 of functions at the core of R
+<p>Stored as r object, there are 1000 of functions at the core of R</p>
 
 append(), c(), identical(), length() and so on
 
 ## 🔥 Importing files in R
-R enables you to import data from different sources. 
+<p>R enables you to import data from different sources.</p> 
 
-1. Table: A table can be loaded in R using the read.table function.
+1.    Table: A table can be loaded in R using the read.table function.
 
-2. CSV: A .csv file is imported using the read.csv function.
+2.    CSV: A .csv file is imported using the read.csv function.
 
-3. Excel: A .xls file is imported using the read.excel function.
+3.    Excel: A .xls file is imported using the read.excel function.
 
 ## 🔥 Exporting Files in R
-You can also export different files to another location in R.
+<p>You can also export different files to another location in R.</p>
 
-1. To export a table: Write.table(file_name, “c:/file_name.txt”, sep=“\t”)
+1.    To export a table: Write.table(file_name, “c:/file_name.txt”, sep=“\t”)
 
-2. To export an Excel file: Write.xls(file_name, "c:/file_name.txt", sep= "\t")
+2.    To export an Excel file: Write.xls(file_name, "c:/file_name.txt", sep= "\t")
 
-3. To export a CSV file: Write.csv(file_name, “c:/file_name.csv”)
+3.    To export a CSV file: Write.csv(file_name, “c:/file_name.csv”)
 
 ## 🔥 Data Visualization:
-Bar plot, Pie chart, Histogram, Kernel density plot, Line chart, Box plot, Heat map, Word cloud.
-
+<p>Bar plot, Pie chart, Histogram, Kernel density plot, Line chart, Box plot, Heat map, Word cloud.</p>
 
 ## 🔥 Statistical analysis:
-Hypothesis: Assumption
-hypothesis needs analysis to be validated.
-simple hypothesis: R.S between 2 variables
-complex hypothesis: R.S between more than 2 variables
-Null hypothesis: H1-mean =100
-alternate hypothesis: H1-mean = or != 100
-statistical hypothesis: statistical inference performed data from a scientific study.
+Hypothesis: Assumption<br/>
+hypothesis needs analysis to be validated.<br/>
+simple hypothesis: R.S between 2 variables<br/>
+complex hypothesis: R.S between more than 2 variables<br/>
+Null hypothesis: H1-mean =100<br/>
+alternate hypothesis: H1-mean = or != 100<br/>
+statistical hypothesis: statistical inference performed data from a scientific study.<br/>
 
 ## 🔥 hypothesis test:
 hypothesis test is a formal procedure in statistics used to test whether a hypothesis can be accepted o not.
