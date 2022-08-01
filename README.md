@@ -92,7 +92,7 @@ print(BMI)
 <p>Variables are used to stored data, and the unique name given to it is called identifier.</p>
 
 ## 🔥 Operators in R:
-<p> Arethmatic, Relational, Logical and assignment( a<-8 means a=8) operators. </p>
+<p> Arethmatic(+,-,*,/,^,%%, and integer division-%/%-quotiont-16/5=3),  Relational(>, <, >=, <=, ==, !=) , Logical(and-&, or-|, not-!) and assignment( a<-8 means a=8, 8->a means 8=a) operators. </p>
 
 ## 🔥 More about R:
 
@@ -106,6 +106,20 @@ if(FALSE){<br/>
   comment, and this is how we<br/>
   put it"<br/>
 }
+
+## 🔥 data manipulation in r
+<b>dplyr:</b>
+
+<p> the dplyr package is used to transform and summarize tabular data with rows and columns<br/>
+select, filter, sort, arrange, summary, mutate </p>
+
+<b>tidyr</b>
+
+<p>the tidyr package helps you create tidy data, a tidy data is easy to visualize and model, gather(make wide data longer), spread(makes long data wider), separate(split a col into multiple cols), unite(combine multiple cols)</p>
+
+<p> %>% is called the forward pipe operator in R. It provides a mechanism for chaining commands with a new forward-pipe operator, %>%. 
+<p> This operator will forward a value, or the result of an expression into the next function call/expression. It is defined by the package magrittr (CRAN) and
+is heavily used by dplyr (CRAN).</p>
 
 ## 🔥 Conditional statement, loops, break, next, Rscript and Functions
 
@@ -178,7 +192,7 @@ append(), c(), identical(), length() and so on
 
 2.    CSV: A .csv file is imported using the read.csv function.
 
-3.    Excel: A .xls file is imported using the read.excel function.
+3.    Excel: A .xls file is imported using the read.excel function. or Read data from the sheets using read_excel i.e read_excel("filename.xlsx",sheet='sheetname')
 
 ## 🔥 Exporting Files in R
 <p>You can also export different files to another location in R.</p>
@@ -276,12 +290,6 @@ The mean is the most commonly used measure of central tendency to describe data,
 ## 🔥 Non linear regression:
 <p>not linear line i.e polynomial, logarithmic, square root, reciprocal, and exponential regression.</p>
 
-## 🔥 Cross validation:
-<p>cross validation is a technique used to determine the accuracy in predicting models.</p>
-
-## 🔥 PCA
-<p>PCA are linear components of the original variables. They tend to capture as much variance as possible in a dataset.</p>
-
 ## 🔥 Clustering
 <p>type of unsupervised learning.</p>
 group things based on similarities.
@@ -290,4 +298,29 @@ group things based on similarities.
 (2)hierarchial clustering-based on dendogram = agglomerative (bottom-top) and divisive(top-bottom)<br/>
 (3)density based clustering-used to identify clusters of any shape in a data set containing noise and outliers<br/>
 
-# 🔥 WORKING ON THIS DIRECTORY - SICK TODAY- SO WILL DO IT TOMMOROW 🔥
+## 🔥 End-to-end Machine Learning project with R 
+1.    Get the data
+2.    Explore and visualize data for insights
+3.    Cleaning data for machine learning algorithms
+4.    Select and train model
+5.    Tune the parameters (if possible) for performance-enhancement
+6.    Present your findings and solutions
+7.    Create, launch and maintain a scalable system
+
+
+## 🔥 Cross validation:
+<p>When model is split into training and testing it can be possible that specific type of data point may go entirely into either training or testing portion. This would lead the model to perform poorly. Hence over-fitting and underfitting problems can be well avoided with cross validation techniques. cross validation is a technique used to determine the accuracy in predicting models.</p>
+
+## 🔥 K-fold cross validation
+<p>We are doing evaluation because we want to get an accurate measure of how well the model performs. If our dataset is small, our test set is going to be small. Thus it might not be a good random assortment of datapoints and by random chance end up with easy or difficult datapoints in our evaluation set.
+Since our goal is to get the best possible measure of our metrics (accuracy, precision, recall and F1 score), we can do a little better than just a single training and test set.
+Instead of doing a single train/test split, we’ll split our data into a training set and test set multiple times.</p>
+<p> This process for creating multiple training and test sets is called k-fold cross validation. The k is the number of chunks we split our dataset into. </p>
+
+## 🔥 PCA
+<p> Reducing the number of input variables for a predictive model is referred to as dimensionality reduction.</p>
+<p> Perhaps the most popular technique for dimensionality reduction in machine learning is Principal Component Analysis, or PCA for short. This is a technique that comes from the field of linear algebra and can be used as a data preparation technique to create a projection of a dataset prior to fitting a model.</p>
+<p>PCA are linear components of the original variables. They tend to capture as much variance as possible in a dataset.</p>
+
+
+                🔥 Furthermore, the practice files are included in the R folder, and the datasets are included in the Data-sets folder 🔥
