@@ -227,7 +227,7 @@ There are other ways in which statistical tests can differ and one of them is ba
 
 ## 🔥 Parametric tests:
 <p>Parametric tests are those statistical tests that assume the data approximately follows a normal distribution (In a normal distribution the mean is zero and the standard deviation is 1.  its mean (average), median (midpoint), and mode (most frequent observation) are all equal to one another.), amongst other assumptions. for example: z-test, t-test, ANOVA, Manova. <br/>
-Important note — the assumption is that the data of the whole population follows a normal distribution, not the sample data that you’re working with.
+Important note — the assumption is that the data of the whole population follows a normal distribution, not the sample data that you’re working with.</p>
 
 ## 🔥 Nonparametric tests:
 <p>Nonparametric tests are those statistical tests that don’t assume anything about the distribution followed by the data, and hence are also known as distribution free tests (examples include Chi-square, Mann-Whitney U-test). <br/>
@@ -284,6 +284,7 @@ The mean is the most commonly used measure of central tendency to describe data,
 ## 🔥 Linear regression:
 ## 🔥 Simple regression:
 <p>It predicts the value of a variable based on the value of two or more variables.</p>
+
 ## 🔥Multiple regression: 
 <p>It considers more than one quantitative and qualitative variable (X1, .. , Xn) to predict a quantitative and dependent variable Y.</p>
 
@@ -323,4 +324,4 @@ Instead of doing a single train/test split, we’ll split our data into a traini
 <p>PCA are linear components of the original variables. They tend to capture as much variance as possible in a dataset.</p>
 
 
-                🔥 Furthermore, the practice files are included in the R folder, and the datasets are included in the Data-sets folder 🔥
+            🔥 Furthermore, the practice files are included in the R folder, and the datasets are included in the Data-sets folder 🔥
