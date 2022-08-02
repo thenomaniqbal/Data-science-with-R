@@ -323,5 +323,19 @@ Instead of doing a single train/test split, we’ll split our data into a traini
 <p> Perhaps the most popular technique for dimensionality reduction in machine learning is Principal Component Analysis, or PCA for short. This is a technique that comes from the field of linear algebra and can be used as a data preparation technique to create a projection of a dataset prior to fitting a model.</p>
 <p>PCA are linear components of the original variables. They tend to capture as much variance as possible in a dataset.</p>
 
+## 🔥 Statistics and Basic probability
+Mean - Arithmetic average<br/>
+Median - Midpoint of the distribution (50th percentile)<br/>
+Mode - Most frequent observation
+
+Variance - Variance measures how far a set of numbers is spread out, it is the average of the squared differences from the Mean.<br/>
+Standard Deviation - The standard deviation measures the amount of variation or dispersion from the average, it is the square root of the Variance. <br/>
+IQR - The interquartile range (IQR), is a measure of statistical dispersion, being equal to the difference between the upper and lower quartiles IQR = Q3 - Q1 <br/>
+Probability: <br/>
+Disjoint - events do not have any common outcomes - P(A and B) = 0 e.g A man cannot be dead and alive. <br/>
+Non-disjoint - events can have common outcomes - P(A and B) != 0 e.g A student can get 100 marks in statistics and 100
+marks in probability. <br/>
+
+
 
             🔥 Furthermore, the practice files are included in the "RStudio" folder, and the datasets are included in the "dataset" folder 🔥
